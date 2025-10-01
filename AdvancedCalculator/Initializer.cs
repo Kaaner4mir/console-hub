@@ -23,6 +23,9 @@ class Initializer
                     case 2: Elementary.BasicOperation("subtraction", (val1, val2) => val1 - val2); break;
                     case 3: Elementary.BasicOperation("multiplication", (val1, val2) => val1 * val2); break;
                     case 4: Elementary.BasicOperation("division", (val1, val2) => val1 / val2); break;
+                    case 5: Advanced.Exponentiation("exponentiation", (baseNum, exponent) => Math.Pow(baseNum, exponent)); break;
+                    case 6: Advanced.Root("root", (radicand, rootDegree) => Math.Pow(radicand, 1.0 / rootDegree)); break;
+                    case 7: Advanced.Factorial("factorial");break;
                     default:
                         ConsoleManager.WriteColored(
                         "\n❓ The operation you want to perform could not be found.", ConsoleColor.Yellow); break;

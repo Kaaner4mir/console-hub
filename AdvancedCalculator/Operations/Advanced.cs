@@ -178,7 +178,6 @@
         }
     }
 
-
     public static T ShowResult<T>(T result, double operand1, double operand2, string operationName)
     {
         string symbol = operationName.ToLower() switch

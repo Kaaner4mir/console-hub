@@ -29,6 +29,8 @@ class Initializer
                     case 8: Advanced.Modulo("modulo", (dividend, divisor) => dividend % divisor); break;
                     case 9: Advanced.Logarithm("logarithm", (baseNum, argument) => Math.Log(argument, baseNum)); break;
                     case 10: Advanced.Trigonometry(); break;
+                    case 11: Memory.MemoryOperations(); break;
+                    case 12: Environment.Exit(0); break;
                     default:
                         ConsoleManager.WriteColored(
                         "\n❓ The operation you want to perform could not be found.", ConsoleColor.Yellow); break;

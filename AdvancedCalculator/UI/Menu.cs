@@ -55,8 +55,8 @@
             (" ----- 💾 Memory Operations -----\n", ConsoleColor.Cyan),
             (" 1. Memory Add", ConsoleColor.White),
             (" 2. Memory Subtract", ConsoleColor.Magenta),
-            (" 3. Memory Clear", ConsoleColor.Blue),
-            (" 4. Memory Recall", ConsoleColor.Red),
+            (" 3. Memory Recall", ConsoleColor.Red),
+            (" 4. Memory Clear", ConsoleColor.Blue),
       };
 
         foreach (var item in mainMenuItems)

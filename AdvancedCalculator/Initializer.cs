@@ -25,13 +25,17 @@ class Initializer
                     case 4: Elementary.BasicOperation("division", (val1, val2) => val1 / val2); break;
                     case 5: Advanced.Exponentiation("exponentiation", (baseNum, exponent) => Math.Pow(baseNum, exponent)); break;
                     case 6: Advanced.Root("root", (radicand, rootDegree) => Math.Pow(radicand, 1.0 / rootDegree)); break;
-                    case 7: Advanced.Factorial("factorial");break;
+                    case 7: Advanced.Factorial("factorial"); break;
+                    case 8: Advanced.Modulo("modulo", (dividend, divisor) => dividend % divisor); break;
+                    case 9: Advanced.Logarithm("logarithm", (baseNum, argument) => Math.Log(argument, baseNum)); break;
+                    case 10: Advanced.Trigonometry(); break;
                     default:
                         ConsoleManager.WriteColored(
                         "\n❓ The operation you want to perform could not be found.", ConsoleColor.Yellow); break;
                 }
                 ConsoleManager.WaitingScreen();
             }
+
         }
         catch (Exception exc)
         {

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedCalculator", "AdvancedCalculator\AdvancedCalculator.csproj", "{69A2A447-4E8B-4CA3-8A74-BB6237FD6195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolTrackingSystem", "SchoolTrackingSystem\SchoolTrackingSystem.csproj", "{F37AC119-F05A-4497-8D0D-10825371888F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{69A2A447-4E8B-4CA3-8A74-BB6237FD6195}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69A2A447-4E8B-4CA3-8A74-BB6237FD6195}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69A2A447-4E8B-4CA3-8A74-BB6237FD6195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37AC119-F05A-4497-8D0D-10825371888F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37AC119-F05A-4497-8D0D-10825371888F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37AC119-F05A-4497-8D0D-10825371888F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37AC119-F05A-4497-8D0D-10825371888F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,17 @@
+﻿{
+  "Students":
+  [
+    { "Id": 1, "UserId": 2501, "Password": 1111 },
+    { "Id": 2, "UserId": 2502, "Password": 2222 }
+  ],
+  "Teachers": 
+  [
+    { "Id": 1, "UserId": 2511, "Password": 1111 },
+    { "Id": 2, "UserId": 2512, "Password": 2222 }
+  ],
+  "Authorized": 
+  [
+    { "Id": 1, "UserId": 2521, "Password": 1111 },
+    { "Id": 2, "UserId": 2522, "Password": 2222 }
+  ]
+}
